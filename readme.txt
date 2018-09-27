@@ -14,3 +14,4 @@ git commamd record:
 7.git diff        : 对比文件差异。
 8.git reset HEAD filename : 撤消暂存区的文件，返回工作区，不提交。
 9.git checkout -- filename : 丢弃工作区的修改[本质：用版本库的版本替换工作区的版本，一键还原]。
+10.git rm          : 删除文件并且提交到暂存区【撤消删除使用：git reset HEAD filename】
