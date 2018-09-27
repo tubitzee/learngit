@@ -8,4 +8,4 @@ git commamd record:
 4.git reset --hard [HEAD,commit_id] :切换文件版本。
 5.git status      : 查看仓库状态。
 6.git log         : 查看commit历史。
-
+7.git diff        : 对比文件差异。
