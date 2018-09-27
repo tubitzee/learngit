@@ -1,8 +1,8 @@
 Git is a distributed  version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
-Git tracks changes.
-
+Git tracks changes of files.
+Git .
 
 git commamd record:
 1.git reflog       :查看命令历史。
@@ -12,3 +12,4 @@ git commamd record:
 5.git status      : 查看仓库状态。
 6.git log         : 查看commit历史。
 7.git diff        : 对比文件差异。
+8.git reset HEAD filename : 撤消暂存区的文件，不提交。
