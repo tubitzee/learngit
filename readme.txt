@@ -2,7 +2,9 @@ Git is a distributed  version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
-Git .
+
+first time to push commit to github.
+
 
 git commamd record:
 1.git reflog       :查看命令历史。
