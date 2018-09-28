@@ -17,4 +17,20 @@ git commamd record:
 8.git reset HEAD filename : 撤消暂存区的文件，返回工作区，不提交。
 9.git checkout -- filename : 丢弃工作区的修改[本质：用版本库的版本替换工作区的版本，一键还原]。
 10.git rm                  : 删除文件并且提交到暂存区【撤消删除使用：git reset HEAD filename】
-11.git push [origin master]:推送本地仓库到远程，origin代表远程仓库分支，mater代表本地仓库分支。
+11.git push [origin master]:推送本地仓库到远程，origin代表远程仓库分支，mater代表本地仓库分支。 
+12.git clone[address]      :克隆仓库到当前执行命令的地方。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
