@@ -5,7 +5,7 @@ Git tracks changes of files.
 
 first time to push commit to github.
 
-creating a new branch is quick. 
+creating a new branch is quick and simple. 
 
 git commamd record:
 1.git reflog       :查看命令历史。
