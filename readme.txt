@@ -7,6 +7,10 @@ first time to push commit to github.
 
 creating a new branch is quick & simple. 
 
+
+
+
+
 git commamd record:
 1.git reflog       :查看命令历史。
 2.git commit -a -m :提交已追踪的文件，并添加msg。
@@ -25,7 +29,7 @@ git commamd record:
 15.git checkout -b <name>  :创建+切换。
 16.git merge <branch name> :合并分支。
 17.git branch -d <name>    :删除分支。
-
+18.git merge --no-ff -m    : merge with no fast forward.
 
 
 
