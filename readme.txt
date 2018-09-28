@@ -20,6 +20,11 @@ git commamd record:
 10.git rm                  : 删除文件并且提交到暂存区【撤消删除使用：git reset HEAD filename】
 11.git push [origin master]:推送本地仓库到远程，origin代表远程仓库分支，mater代表本地仓库分支。 
 12.git clone[address]      :克隆仓库到当前执行命令的地方。
+13.git branch <name>       :创建分支。
+14.git checkout <name>     :切换分支。
+15.git checkout -b <name>  :创建+切换。
+16.git merge <branch name> :合并分支。
+17.git branch -d <name>    :删除分支。
 
 
 
