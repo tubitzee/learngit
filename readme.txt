@@ -31,7 +31,10 @@ git commamd record:
 17.git branch -d <name>    :删除分支。
 18.git merge --no-ff -m    : merge with no fast forward.
 
-
+关于git在生产环境中的架构设计的猜想：
+	有三个git环境：1.生产服务器本地，代码供用户访问。
+		       2.代码托管服务器，供开发者提交和拉取代码，master提供给服务器拉取更新代码。
+		       3.开发者本地，开发功能，提交代码到远程代码托管服务器。
 
 
 
