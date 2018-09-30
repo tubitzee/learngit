@@ -33,6 +33,18 @@ git commamd record:
 18.git merge --no-ff -m    : merge with no fast forward.
 19.git stash               :将不能提交的改动暂存起来，一般用于在开发分支上开发时，遇到需要修改bug，需要将当前不能提交的分支暂存，然后切换分支开发。否则当前进度会丢失。
 20. git branch -d<D> <branchname> :删除分支。D为强制删除。 
+21.git push origin branch-name :推送本地分支到远程分支。如果远程分支不存在，则在远程创建分支并拉取。
+22.git checkout -b branch-name origin/branch-name :在本地创建和远程分支对应的分支。
+23.git branch --set-upstream branch-name origin/branch-name:建立本地分支与远程分支的关联，便于拉取和推送。
+24.git pull   ：从远程抓取分支。
+
+
+
+
+
+
+
+
 
 关于git在生产环境中的架构设计的猜想：
 	有三个git环境：1.生产服务器本地，代码供用户访问。
