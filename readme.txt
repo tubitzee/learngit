@@ -36,8 +36,12 @@ git commamd record:
 21.git push origin branch-name :推送本地分支到远程分支。如果远程分支不存在，则在远程创建分支并拉取。
 22.git checkout -b branch-name origin/branch-name :在本地创建和远程分支对应的分支。
 23.git branch --set-upstream branch-name origin/branch-name:建立本地分支与远程分支的关联，便于拉取和推送。
-24.git pull   ：从远程抓取分支。
-
+24.git pull       ：从远程抓取分支。
+25.git tag        : 查看标签历史。
+26.git tag <name> ：打标签。
+27.git tag -a -m  : 给标签添加备注。
+28.git show <tagname> : 查看标签说明文字。
+ 
 
 
 
