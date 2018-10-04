@@ -41,7 +41,7 @@ git commamd record:
 26.git tag <name> ：打标签。
 27.git tag -a -m  : 给标签添加备注。
 28.git show <tagname> : 查看标签说明文字。
- 
+29.git push origin :regs/tags/<tagname>   : 删除一个远程标签。29.git push origin :regs/tags/<tagname>   : 删除一个远程标签。 
 
 
 
